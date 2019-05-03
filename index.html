@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/materialize.css') }}" media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="s12">
+        <h1>
+            Which is the in group?
+        </h1>
+    </div>
+
+</div>
+<div class="divider"></div>
+<div class="row">
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image">
+                <img id="img1">
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image">
+                <img id="img2">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="{{ url_for('static', filename='js/materialize.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/view.js') }}"></script>
+</body>
+</html>
