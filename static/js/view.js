@@ -14,7 +14,7 @@ function click(message) {
 
     if (x > 6) {
         var xhr = new XMLHttpRequest();
-        var url = "http://127.0.0.1:5000/submit";
+        var url = "http://35.238.164.231/:5000/submit";
         xhr.open("POST", url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.onreadystatechange = function () {
