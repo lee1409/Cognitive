@@ -41,7 +41,7 @@ function click(message) {
             form.submit();
         };
 
-        redirect("http://35.238.164.231:5000/submit", 'POST');
+        redirect("http://35.238.164.231/submit", 'post');
 
     }
     else{
